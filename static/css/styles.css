@@ -280,6 +280,10 @@ footer div {
 
 /* medium and below */
 @media only screen and (max-width: 992px) {
+    .img-cont div{
+        text-align: center!important;
+    }
+
     .index-main{
         margin-top: -5rem;
     }
@@ -309,7 +313,7 @@ footer div {
         /* position:; */
     }
     .main-title{
-        font-size:90px;
+        font-size:80px;
 
 
     }
