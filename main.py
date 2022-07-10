@@ -7,7 +7,8 @@ Bootstrap(app)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    # return render_template('index.html')
+    return render_template("portfolio.html")
 
 @app.route('/main')
 def main():
