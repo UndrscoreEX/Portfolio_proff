@@ -29,5 +29,10 @@ def it():
 @app.route('/proff')
 def proff():
     return render_template('personalCoach.html')
+
+
+@app.route('/projects')
+def projects():
+    return render_template('projects.html')
 if __name__ == "__main__":
     app.run(debug=True, port=8080)

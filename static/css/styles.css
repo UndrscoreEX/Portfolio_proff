@@ -195,6 +195,10 @@ a.main-title:hover {
     /* text-decoration: underline; */
 }
 
+.about-bg {
+    background-color: black;
+}
+
 .level {
     float: right;
     color: #515052;
@@ -308,7 +312,7 @@ footer div {
         
     }
     .side-pic div img {
-        max-width: 250px;
+        max-width: 400px;
         /* position:; */
     }
     .main-title{
