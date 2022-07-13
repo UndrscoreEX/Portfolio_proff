@@ -12,7 +12,7 @@
             PROJECT BREAKDOWN
         </h1>
         <p class="submain-text special-text">
-            I have a range of experience, both at work and in my personal projects. Through these, I have a large range of pracitcal skills and sotware experiences.
+            I have a range of experience, both at work and in my personal projects. You can see this in the selection of projects below:
         </p>
         </div>
         <div class="row col-md-5 col-sm-12"> 
@@ -21,45 +21,214 @@
             </div>
         </div>
     </div>
-    <hr>
+    
+    <hr class="mt-5 mb-5">
+<!-- new panel -->
+
     <div class="container row align-items-center">
-        <div class="col-xs-12 col-md-6">
-            <div>
+        <div class="col-xs-12 col-md-5">
+            <div class="project-div">
                 <h3 class="">Portfolio Website</h3>
                 <p class="">
-                    <em>
+                    <strong>
                         Stack: HTML/CSS and Bootstrap, Python (Flask), AWS EC2 (Ubuntu), Route53, Photoshop, Nginx, certbot, supervisor 
-                    </em>
+                    </strong>
                 </p>
                 <p>
                     I built this portfolio website from the ground up; the overall design, the front-end coding, the server hosting, and the domain routing. 
-                    This was a great chance for me to display my works, both creative and technical, and be a demonstration of my full stack development capabilities.  
+                    This was a great chance for me to display my creative and technical ability.  
                 </p>
                 <p>
-                    Things I am proud of: <br>
+                    <strong>
+                        Things I am proud of: <br>
+                    </strong>
 
-                - As a general representation of myself and my skills, I think this is a good overall product.  
+                - This is a good representation of myself and my overall skills.  
+                    <br>
+                - Design: The design is clear and clean.  
 
-                - Design: The design is clear and clean. I am happy to have a lot of creative works that I can put on display in an interesting way.  
+                </p>
+                <p>
+                    <strong>
+                        Challenges: <br>
+                    </strong>
 
+                - Design: The first version looked acceptable but I eventually changed the design to be solid and consistent so that I can easily update and add new projects each time.
+                <br>
+                - EC2 Server Management: I have had the experience of hosting websites on an EC2 server before, but dynamically routing to multiple different domains, setting certs, etc for 3 flask apps on the same server was a new challenge.  
                 </p>
     
                 
             </div>
         </div>
-        <div class="col-xs-12 col-md-6">
-            <div class="w-100">
-                <img src="/static/img/E_H_Banner.png">
-                <img src="">
-                <img src="">
-            </div>
+        <div class="col-xs-12 col-md-7">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img class="img-fluid" src="/static/img/E_H_Banner.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid mt-5 mb-5" src="/static/img/homepage.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid mt-2 mb-2" src="/static/img/Design.png">
+                    </div>
+                </div>
+              </div>
         </div>
+    </div>
+            
+    <hr class="mt-5 mb-5">
+<!-- new panel -->
+
+
+    <div class="container row align-items-center">
+        <div class="col-xs-12 col-md-7">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="/static/img/API-hp.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid mt-5 mb-5" src="/static/img/article.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid mt-2 mb-2" src="/static/img/JSONpng.png">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-5">
+                <div class="project-div">
+                    <h3 class="">Article Api</h3>
+                    <p class="">
+                        <strong>
+                            Stack: HTML/CSS and Bootstrap, Python (Flask, Pandas, JSONify), AWS EC2 (Ubuntu), Route53, Nginx, certbot, supervisor 
+                        </strong>
+                    </p>
+                    <p>
+                        As a result of a previous project (web scraping), I have CSVs of the website www.risingwasabi.com that I sometimes use for fun Japanese study.  
+                    </p>
+                    <p>
+                        <strong>
+                            Things I am proud of: <br>
+                        </strong>
+    
+                        Search function: I created back-end logic that will take several keywords from a form input, search the pandas dataframe and generate a dynamic list of results that include those words. It was a fun exercise that included a little of everything.      
+                    </p>
+                    
+        
+                    
+                </div>
+            </div>
             
 
     </div>
+    <hr class="mt-5 mb-5">
+
+<!-- new panel -->
+    <div class="container row align-items-center">
+        <div class="col-xs-12 col-md-5">
+            <div class="project-div">
+                <h3 class="">AWS Practice Exam</h3>
+                <p class="">
+                    <strong>
+                        Stack: HTML/CSS and Bootstrap, Python (Flask, Pandas, Flask-SQLAlchemy), AWS EC2 (Ubuntu), Route53, Nginx, certbot, supervisor 
+                    </strong>
+                </p>
+                <p>
+                    I wanted to practice my flask backend skills. For this I used some of my AWS practice exam sheets to generate a dynamic test application with the content, which can check for correct answers and generate a final score.  
+                </p>
+                <p>
+                    <strong>
+                        Challenges: <br>
+                    </strong>
+                    - Problems with variables across worker nodes: I had to do a lot of troubleshooting as to why the score wasn't being recorded when hosting online. I later found that some variables changes are not always consistent across worker nodes. For this, I had to use Flask-SQLAlchemy DB to ensure consistency.
+                </p>
+    
+                
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-7">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img class="img-fluid" src="/static/img/aws_start.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid mt-5 mb-5" src="/static/img/aws_question.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid mt-2 mb-2" src="/static/img/aws-end.png">
+                    </div>
+                    
+                </div>
+              </div>
+        </div>
+    </div>
+            
+    <hr class="mt-5 mb-5">
     
 </div>
 
+
+<!-- new panel -->
+
+
+<div class="container row align-items-center">
+    <div class="col-xs-12 col-md-7">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" >
+                    <img class="img-fluid" src="/static/img/main-hub.png" >
+                </div>
+                <div class="carousel-item" >
+                    <img class="img-fluid mt-5 mb-5" src="/static/img/added-record.png" >
+                </div>
+                <div class="carousel-item"  >
+                    <img class="img-fluid mt-2 mb-2" src="/static/img/search.png">
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-5">
+            <div class="project-div" style="min-height: 400px;">
+                <h3 class="">SNS Account DB</h3>
+                <p class="">
+                    <strong>
+                        Stack: HTML/CSS and Bootstrap, Python (PyQT6, SQLite3)
+                    </strong>
+                </p>
+                <p>
+                    A GUI for adding/searchng/deleting SNS account info (name, email, password, etc)
+                </p>
+                <p>
+                    <strong>
+                        Things I am proud of: <br>
+                    </strong>
+
+                    Creating a practical GUI that I can imagine seeing in being used in the real-world. 
+                </p>
+                <p>
+                    <strong>
+                        Challenges: <br>
+                    </strong>
+                    - There are a lot of UI/UX elements that I didn't consider initially (error messages, managing bad inputs etc) 
+                </p>
+                
+    
+                
+            </div>
+        </div>
+        
+
+</div>
+<hr class="mt-5 mb-5">
+
+
+<script>$('.carousel').carousel({
+    interval: 1000
+  })</script>
 
 
 
