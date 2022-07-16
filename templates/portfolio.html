@@ -18,17 +18,17 @@
                           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                  <p>A Designer </p>
-                                </div>
-                                <div class="carousel-item">
-                                  <p>An Engineer</p>
-                                </div>
-                                <div class="carousel-item">
-                                    <p>A Professional</p>
-                                </div>
-                                <div class="carousel-item">
-                                  <p>Ethan</p>
-                                </div>
+                                <p>An Engineer</p>
+                              </div>
+                              <div class="carousel-item ">
+                                <p>A Designer </p>
+                              </div>
+                              <div class="carousel-item">
+                                <p>A Professional</p>
+                              </div>
+                              <div class="carousel-item main-color">
+                                <p>Ethan</p>
+                              </div>
                             </div>
                           </div>
     
@@ -38,7 +38,8 @@
                 <div>
                   <p class="py-4 special-text">
                     <span class="main-color ">Jack of all trades </span>
-                    I'm proud to be a successful self-starter and largely self-taught. Through my long International career experience, I have been able to develop my skills in many key areas. As an international professional in Japan, I have successfully lead projects in bilingual sales, marketing, design, and software development.   
+                    I'm proud to be a successful self-starter and largely self-taught. 
+                    Through my long career in Japan, I have a unique understanding of the international development process, Japanese business and creative design. 
                   </p>
                 </div>
               </div>    
@@ -68,12 +69,31 @@
                 <img class="w-100" src="static\img\Db-app1.png">
               </div>
             </div>
-
+            
             <hr>
+            <div class="container ">
+              <div class="my-auto my-2 mx-3" > 
+                <a class="port-title" href="{{url_for('proff')}}">
+
+                  <p class=" display-1 text-end" >Professional Coaching<p>
+                </a>
+              </div>
+              <div class=" my-2 row img-cont">
+                <div class="col-md-6 pt-2  col-xs-6 justify-content-center">
+                  <img class="w-100" src="static\img\Presentation1.png">
+                </div>
+                <div class="col-md-6  pt-2 col-xs-6 justify-content-center">
+                  <img class="w-100" src="static\img\Presentation2.png">
+                </div>
+              </div>
+            </div>
+              <hr> 
+
+
             <div href="{{url_for('design')}}" class="my-auto my-2" > 
               <a class="port-title" href="{{url_for('design')}}">
 
-                <p class=" display-1 text-end" >Graphic Design</p>
+                <p class=" display-1 text-start" >Graphic Design</p>
               </a>
             </div>
              
@@ -91,7 +111,7 @@
                   <div class="mx-3 text-start" > 
                     <a class="port-title" href="{{url_for('design')}}">
 
-                      <p  class=" display-1" >Content Creation</p>
+                      <p  class=" display-1 text-end" >Content Creation</p>
                     </a>
                   </div>
 
@@ -108,23 +128,7 @@
                     <hr>
                   
                   <!-- third row -->
-                  <div class="container ">
-                    <div class="my-auto my-2 mx-3" > 
-                      <a class="port-title" href="{{url_for('proff')}}">
-
-                        <p class=" display-1 text-end" >Professional Coaching<p>
-                      </a>
-                    </div>
-                    <div class=" my-2 row img-cont">
-                      <div class="col-md-6 pt-2  col-xs-6 justify-content-center">
-                        <img class="w-100" src="static\img\Presentation1.png">
-                      </div>
-                      <div class="col-md-6  pt-2 col-xs-6 justify-content-center">
-                        <img class="w-100" src="static\img\Presentation2.png">
-                      </div>
-                    </div>
-                  </div>
-                    <hr> 
+                  
 
                   <!-- new ones -->
 
@@ -138,7 +142,7 @@
               </div>
           </div>
       <script>$('.carousel').carousel({
-        interval: 1000
+        interval: 800
       })</script>
     
 {% endblock %}
