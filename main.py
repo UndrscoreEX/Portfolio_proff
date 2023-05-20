@@ -35,4 +35,4 @@ def proff():
 def projects():
     return render_template('projects.html')
 if __name__ == "__main__":
-    app.run(debug=True, port=8080)
+    app.run(debug=False, port=8080)
